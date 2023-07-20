@@ -1,0 +1,267 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),
+    url("netflix_background.jpg");
+    width : 1420px;
+    height: 700px;
+    
+}
+.logo{
+    position: absolute;
+    left: 60px;
+    top: 30px;
+    opacity: 0.5;
+    
+}
+#language{
+    position: absolute;
+    left: 1200px;
+    top: 10px;
+    height: 32px;
+    width: 64px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+
+    
+}
+#language_dropdown{
+    height: 32px;
+    width: 64px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+
+}
+.sign{
+    background-color: red;
+    color: white;
+    position: absolute;
+    height: 32px;
+    width: 64px;
+    left: 1300px;
+    top: 10px;
+    border-radius: 10px;
+}
+.start{
+    background-color: red;
+    color: white;
+}
+.content{
+    align-content: center;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    font:bolder;
+    
+    
+}
+h1.hero{
+    font-size: 48px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+    
+    margin-left: 300px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+
+}
+.start{
+    padding: 12px 24px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.email{
+    border-color: white;
+    background-color: rgba(40, 34, 34, 0.167);
+    font-size: 18px;
+    color: white;
+    margin-left: 400px;
+    padding: 12px 24px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+.section1,.section2,.section3,.section4{
+    
+    height: 300px;
+    
+}
+.features{
+    background-color: black;
+}
+h1.s1,h1.s3{
+    font-size: 48px;
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    margin-top: 200px; 
+
+    
+}
+p.s1,p.s3{
+    font-size: 24px;
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 200px;
+    
+}
+h1.s2,h1.s4{
+    font-size: 48px;
+    color: white;
+    margin-left: 700px;
+    margin-top: 10px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+p.s2,p.s4{
+    font-size: 24px;
+    color: white;
+    margin-left: 700px;
+    margin-bottom: 200px;
+}
+.img6{
+    margin-top: 20px;
+}
+.section4{
+    height: 600px;
+}
+h1.s4{
+    position: absolute;
+    top: 2200px;
+}
+p.s4{
+    position: absolute;
+    top: 2500px;
+
+}
+h4{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.faq{
+    background-color: black;
+}
+.ques{
+    padding-top: 40px;
+
+}
+.questions{
+    background-color: rgba(120, 112, 112, 0.427);
+    color: white;
+    cursor: pointer;
+    padding: 24px;
+    font-size: 24px;
+    margin-left: 250px;
+    height: 84px;
+    width: 961px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.questions:hover{
+    background-color: gray;
+}
+.answer{
+    padding: 24px;
+    background-color:rgba(120, 112, 112, 0.427); 
+    color: white;
+    display: none;
+    font-size: 24px;
+    margin-left: 250px;
+    width: 915px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.footer{
+    background-color: black;
+    padding-bottom: 40px;
+    width: 100%;
+}
+h6{
+    font-size: 16px;
+    padding: 12px;
+    color: white;
+}
+.img3{
+    position: absolute;
+    left: 770px;
+    top: 710px;
+    z-index: 2;
+}
+.feature1_video{
+    position: absolute;
+    left: 860px;
+    top: 810px;
+    z-index: 1;  
+}
+.img5{
+    position: absolute;
+    left: 770px;
+    top: 1700px;
+    z-index: 2;
+    display: flex;
+}
+
+.feature3_video{
+    position: absolute;
+    z-index: 1;
+    left: 875px;
+    top: 1750px;
+    display: flex;
+
+}
+
+.img4{
+    position: absolute;
+    top: 1250px;
+    left: 150px;
+}
+a{
+    color: white;
+}
+.footer_content{
+    padding-top: 40px;
+    margin-left: 200px;
+}
+h6{
+    padding-bottom: 100px;
+    padding-top: 20px;
+
+}
+li{
+    margin-bottom: 20px;
+}
+ul{
+    column-count: 3;
+    margin-bottom: 30px;
+}
+hr{
+    border: gray 4px solid;
+}
+
